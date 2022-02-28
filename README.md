@@ -1,5 +1,5 @@
 # Raspberry-Pi-Automated-WiFi-Access-Point
-An automated WiFI Access Point setup script for Raspberry Pis. Turns your Pi into an access point that forwards traffic through the ethernet port. In essence, converts your Raspberry Pi into a WiFi router!
+An automated WiFi Access Point setup script for Raspberry Pis. Turns your Pi into an access point that forwards traffic through the ethernet port. In essence, this script converts your Raspberry Pi into a WiFi router!
 
 
 ## Instructions
