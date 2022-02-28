@@ -1,5 +1,5 @@
 # Raspberry-Pi-Automated-WiFi-Access-Point
-An automated WiFI Access Point setup script for Raspberry Pis. Turns your Pi into an access point that forwards traffic through the ethernet port!
+An automated WiFI Access Point setup script for Raspberry Pis. Turns your Pi into an access point that forwards traffic through the ethernet port. In essence, turns your Raspberry Pi into a WiFi router!
 
 
 ## Instructions
@@ -14,7 +14,7 @@ An automated WiFI Access Point setup script for Raspberry Pis. Turns your Pi int
 5. Enter network name, password, and password confirmation
 6. Reboot!
 
-##Notes
+## Notes
 1. This will create a 2.4ghz WiFi network on channel 2
 2. Country code is set to United States
-3. To change these settings, edit the `/etc/hostapd/hostapd.conf` file
+4. To change these settings, edit the `/etc/hostapd/hostapd.conf` file
