@@ -1,3 +1,11 @@
+while getopts s:p: flag
+do
+    case "${flag}" in
+        s) ssid=${OPTARG};;
+        p) pw1=${OPTARG};;
+    esac
+done
+
 #!/bin/sh
 CYAN='\033[0;36m'
 NC='\033[0m'
@@ -13,9 +21,14 @@ echo          "########## be visible. Connect as you would to other networks!   
 
 echo "\n${GRE}Setting up WiFi Access Point...${NC}"
 
-read -p "Enter your desired WiFi Network Name: " ssid
-read -p "Enter your desired password: " pw1
-read -p "Enter your desired password (again): " pw2
+if [ -z ${var+x} ]
+then 
+    read -p "Enter your desired WiFi Network Name: " ssid
+    read -p "Enter your desired password: " pw1
+    read -p "Enter your desired password (again): " pw2
+else
+    pw2=${pw1}
+fi
 
 if [ X"$pw1" = X"$pw2" ]
 then
