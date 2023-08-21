@@ -21,7 +21,7 @@ echo          "########## be visible. Connect as you would to other networks!   
 
 echo "\n${GRE}Setting up WiFi Access Point...${NC}"
 
-if [ -z ${var+x} ]
+if [ -z ${ssid+x} ]
 then 
     read -p "Enter your desired WiFi Network Name: " ssid
     read -p "Enter your desired password: " pw1
