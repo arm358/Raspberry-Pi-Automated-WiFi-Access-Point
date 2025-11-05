@@ -3,6 +3,7 @@ An automated WiFi Access Point setup script for Raspberry Pis. Turns your Pi int
 
 
 ## Instructions
+### I believe this no longer works on releases after and including Bookworm due to NetworkManager, but no testing has been performed. Releases prior to bookworm should work.
 1. Clone the repository using git<br>
     `git clone https://github.com/arm358/Raspberry-Pi-Automated-WiFi-Access-Point`
 2. Change directory into the repository<br>
